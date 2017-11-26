@@ -10,10 +10,17 @@ font-family: helvetica;
 /* media styles */
 
 .alt-nav{
-  display:none;
+  display: none;
 }
 
-@media only screen and (max-width 1024px){
+@media only screen and (max-width 1024px) and (orientation portrait){
+.prime-nav{
+  padding-left: 50%;
+  color: white;
+  font-family: helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+}
 .prime-nav{
   display: none;
 }
@@ -21,6 +28,7 @@ font-family: helvetica;
   display: none;
 }
 }
+
 
 /* site container */
 
