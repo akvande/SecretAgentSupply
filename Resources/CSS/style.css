@@ -1,0 +1,199 @@
+/* general styles */
+
+html,
+body{
+margin: 0;
+font-size: 18 px;
+font-family: helvetica;
+}
+
+
+/* site container */
+
+.site-container{
+margin:auto;
+width:960px;
+}
+
+/* logo section */
+
+.logo-banner{
+width: 100%;
+height: auto;
+background-color: black;
+color: white;
+}
+.logo-title{
+  width:100%;
+  display: inline-flex;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+.logo{
+display: flex;
+align-self: center;
+height: 1.5rem;
+width: auto;
+padding-left: 0.5rem;
+padding-right: 1rem;
+}
+.page-title h4{
+  font-size: 1rem;
+  font-family: helvetica;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
+
+/* Main Banner section */
+.banner-container{
+  height: 25rem;
+  display: flex;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg');
+  background-size: cover;
+}
+.banner-title{
+  width: 25rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 9rem;
+  align-content: center;
+}
+.banner-title h4{
+  font-family: helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  padding-bottom: 0;
+}
+.banner-title h1{
+  font-family: helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 3rem;
+  margin-top: .025rem;
+}
+.navigation-container{
+  width: 100%;
+  height: auto;
+  background-color: firebrick;
+}
+.navigation ul{
+  list-style: none;
+  margin: 0;
+  padding-top: 0.75rem;
+  padding-left: 0;
+  padding-bottom: 0.75rem;
+  width: 100%;
+  display: inline-flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.navigation li a{
+color: white;
+font-family: helvetica;
+font-size: 1rem;
+font-weight: bold;
+}
+
+/* middle section */
+
+/* product grid section */
+
+.product{
+  width: 100%;
+  height: 15rem;
+  margin-bottom: 0;
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.product h5{
+  width:100%;
+  font-style: helvetica;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.pen{
+  width: 30%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border: solid 4px;
+}
+.pen img{
+  width: auto;
+  height: 9rem;
+  padding-left: 25%;
+}
+.watch{
+  width: 30%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border: solid 4px;
+}
+.watch img{
+  width: auto;
+  height: 9rem;
+  padding-left: 25%;
+}
+.glasses{
+  width: 30%;
+  border: solid 4px;
+}
+.glasses img{
+  width: auto;
+  height: 4rem;
+  padding-left: 25%;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  overflow: hidden;
+}
+
+/* bottom section */
+.location-hours{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.location{
+  width: 35%;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.location-hours h5{
+  background-color: black;
+  color: white;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+.hours{
+  width: 35%;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.location-hours p{
+margin-top: 0;
+padding-bottom: 4rem;
+}
+.footer{
+  height: 5rem;
+  margin:auto;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-content: center;
+}
