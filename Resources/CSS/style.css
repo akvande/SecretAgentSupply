@@ -13,7 +13,7 @@ font-family: helvetica;
   display: none;
 }
 
-@media only screen and (max-width: 480px) and (orientation: portrait){
+@media screen and (max-device-width: 480px) and (orientation: portrait){
 .prime-nav{
   padding-left: 50%;
   color: white;
