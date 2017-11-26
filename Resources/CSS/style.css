@@ -7,6 +7,20 @@ font-size: 18 px;
 font-family: helvetica;
 }
 
+/* media styles */
+
+.alt-nav{
+  display:none;
+}
+
+@media only screen and (max-width 1024px){
+.navigation{
+  display: none;
+}
+.glasses{
+  display: none;
+}
+}
 
 /* site container */
 
