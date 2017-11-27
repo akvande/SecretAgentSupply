@@ -123,6 +123,9 @@ font-family: helvetica;
 .site-container-med{
     display:none;
   }
+.site-container .location-hours{
+  display: none;
+}
 .logo-banner{
     display:none;
   }
@@ -133,6 +136,12 @@ font-family: helvetica;
   display: none;
 }
 .location-hours{
+  display: none;
+}
+.location{
+  display: none;
+}
+.hours{
   display: none;
 }
 .logo-banner-small{
@@ -197,6 +206,39 @@ font-family: helvetica;
 .copyright-small h4{
   display: block;
   text-align: center;
+}
+.location-hours-small{
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.location-small{
+  width: 90%;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.location-hours-small h5{
+  background-color: black;
+  color: white;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+.hours-small{
+  width: 90%;
+  margin-top: .05rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.location-hours-small p{
+margin-top: 0;
+padding-bottom: 0;
 }
 }
 
@@ -394,11 +436,11 @@ font-weight: bold;
 }
 .location-hours p{
 margin-top: 0;
-padding-bottom: 4rem;
+padding-bottom: 0;
 }
 .footer{
   height: 5rem;
-  margin:auto;
+  margin-top: 4rem;
   background-color: black;
   color: white;
   display: flex;
