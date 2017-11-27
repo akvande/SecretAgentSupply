@@ -12,9 +12,15 @@ font-family: helvetica;
 .alt-nav{
   display: none;
 }
+.pen-med{
+  display: none;
+}
+.watch-med{
+  display: none;
+}
 
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 1024px) and (orientation:landscape){
 .alt-nav{
   padding-left: 50%;
   color: white;
@@ -35,17 +41,37 @@ font-family: helvetica;
   flex-direction: row;
   justify-content: space-between;
 }
-.pen{
+.pen-med{
   width: 47%;
+  border: solid 4px;
+  display: block;
+}
+.pen-med img{
+  width:auto;
+  height:9rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  display: block;
+  margin: 0 auto;
+}
+.pen{
+  display: none;
+}
+.watch-med{
+  width: 47%;
   border: solid 4px;
+  display: block;
+}
+.watch-med img{
+  width: auto;
+  height: 9rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: block;
+  margin: 0 auto;
 }
 .watch{
-  width: 47%;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  border: solid 4px;
+  display: none;
 }
 .glasses{
   display: none;
@@ -152,8 +178,8 @@ font-weight: bold;
 
 .product{
   width: 100%;
-  height: 15rem;
-  margin-bottom: 0;
+  height: auto;
+  margin-bottom: auto;
   padding-top: 3rem;
   display: flex;
   flex-direction: row;
@@ -170,36 +196,42 @@ font-weight: bold;
 }
 .pen{
   width: 30%;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  display: block;
   border: solid 4px;
 }
 .pen img{
   width: auto;
   height: 9rem;
-  padding-left: 25%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: block;
+  margin: 0 auto;
 }
 .watch{
   width: 30%;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  display: block;
   border: solid 4px;
 }
 .watch img{
   width: auto;
   height: 9rem;
-  padding-left: 25%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: block;
+  margin: 0 auto;
 }
 .glasses{
   width: 30%;
+  display: block;
   border: solid 4px;
 }
 .glasses img{
   width: auto;
-  height: 4rem;
-  padding-left: 25%;
+  height: 5rem;
   padding-top: 4rem;
-  padding-bottom: 3rem;
+  padding-bottom: 4rem;
+  display: block;
+  margin: 0 auto;
   overflow: hidden;
 }
 
