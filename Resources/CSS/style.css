@@ -100,7 +100,7 @@ font-family: helvetica;
 
 /* media styles smartphones */
 
-@media screen and (min-width: 470px){
+@media screen and (max-width: 470px){
 .alt-nav{
     padding-left: 50%;
     color: white;
@@ -241,11 +241,6 @@ margin-top: 0;
 padding-bottom: 0;
 }
 }
-
-
-
-
-
 
 /* site container */
 
