@@ -12,15 +12,11 @@ font-family: helvetica;
 .alt-nav{
   display: none;
 }
-.pen-med{
-  display: none;
-}
-.watch-med{
+.site-container-med{
   display: none;
 }
 
-
-@media screen and (max-width: 1024px) and (orientation:landscape){
+@media screen and (min-width: 1024px) and (orientation:portrait){
 .alt-nav{
   padding-left: 50%;
   color: white;
@@ -32,7 +28,15 @@ font-family: helvetica;
 .prime-nav{
   display: none;
 }
-.product{
+.site-container-large{
+  display: none;
+}
+.site-container-med{
+  width: 960px;
+  margin: auto;
+  display: block;
+}
+.product-med{
   width: 100%;
   height: 15rem;
   margin-bottom: 0;
@@ -40,6 +44,15 @@ font-family: helvetica;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.product-med h5{
+  width:100%;
+  font-style: helvetica;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 .pen-med{
   width: 47%;
@@ -54,9 +67,6 @@ font-family: helvetica;
   display: block;
   margin: 0 auto;
 }
-.pen{
-  display: none;
-}
 .watch-med{
   width: 47%;
   border: solid 4px;
@@ -70,12 +80,6 @@ font-family: helvetica;
   display: block;
   margin: 0 auto;
 }
-.watch{
-  display: none;
-}
-.glasses{
-  display: none;
-}
 }
 
 
@@ -85,7 +89,10 @@ font-family: helvetica;
 margin:auto;
 width:960px;
 }
-
+.site-container-large{
+  margin: auto;
+  width:960px;
+}
 /* logo section */
 
 .logo-banner{
